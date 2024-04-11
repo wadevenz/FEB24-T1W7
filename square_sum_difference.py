@@ -32,7 +32,7 @@ sum = 0
 
 for i in range (1, 101):
     if i < 100:
-        sum_of_squares += i * i
+        sum_of_squares += i ** 2
         sum += i
     else:
         square_of_sum = sum * sum
